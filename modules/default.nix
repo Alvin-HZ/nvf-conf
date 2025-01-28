@@ -15,6 +15,7 @@
     ./statusline.nix
     ./tabline.nix
     ./telescope.nix
+    ./terminal.nix
     ./theme.nix
     ./ui.nix
     ./utility.nix
