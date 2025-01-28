@@ -7,6 +7,7 @@ _: {
       enableExtraDiagnostics = true;
 
       nix.enable = true;
+      java.enable = true;
     };
     lsp = {
       trouble.enable = true;
