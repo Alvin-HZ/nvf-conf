@@ -8,6 +8,9 @@ _: {
 
       nix.enable = true;
     };
-    lsp.trouble.enable = true;
+    lsp = {
+      trouble.enable = true;
+      formatOnSave = true;
+    };
   };
 }
