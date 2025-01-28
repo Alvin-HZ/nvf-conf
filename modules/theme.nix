@@ -3,7 +3,7 @@
     theme = {
       enable = true;
       name = "catppuccin";
-      style = "latte";
+      style = "mocha";
     };
 
     lazy.plugins."vimplugin-auto-dark-mode" = {
