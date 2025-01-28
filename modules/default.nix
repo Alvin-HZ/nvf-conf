@@ -1,4 +1,4 @@
-{ ... }: {
+{...}: {
   imports = [
     ./autocomplete.nix
     ./autopairs.nix
@@ -12,6 +12,7 @@
     ./options.nix
     ./packages.nix
     ./snippets.nix
+    ./spellcheck.nix
     ./statusline.nix
     ./tabline.nix
     ./telescope.nix
