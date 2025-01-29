@@ -1,4 +1,8 @@
-{ pkgs, lib, ... }: {
+{
+  pkgs,
+  lib,
+  ...
+}: {
   vim = {
     theme = {
       enable = true;
@@ -12,18 +16,20 @@
         src = pkgs.fetchFromGitHub {
           owner = "f-person";
           repo = "auto-dark-mode.nvim";
-          rev = "fa925885a004463e3af8690695b09baeb2b545bf";
-          hash = "sha256-7ZhYKXhwqsrjfSbNZ/P02fFfi0JTFOUhzoeGtQROJCA=";
+          rev = "02ef9553e2a1d6e861bc6955d58ce5883d28a6ad";
+          hash = "sha256-FTXakglUrqifEXjzES6M4L+rthItu5rlw6QyIOLYNOc=";
         };
       };
 
       setupModule = "auto-dark-mode";
 
-      event = [ "BufEnter" ];
-      setupOpts = { update_interval = 1000;};
+      lazy = true;
+      event = ["BufEnter"];
+      setupOpts = {
+        update_interval = 1000;
+      };
     };
 
     # lua require("auto-dark-mode.utils").start_job({"dbus-send", "--session", "--print-reply=literal", "--reply-timeout=1000", "--dest=org.freedesktop.portal.Desktop", "/org/freedesktop/portal/desktop", "org.freedesktop.portal.Settings.Read", "string:org.freedesktop.appearance", "string:color-scheme"}, {on_stdout = function(res) print(res[1]) end})
-
   };
 }
