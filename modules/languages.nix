@@ -7,6 +7,7 @@ _: {
       enableExtraDiagnostics = true;
 
       nix.enable = true;
+      python.enable = true;
       markdown = {
         enable = true;
         format.enable = false;
