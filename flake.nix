@@ -13,12 +13,13 @@
     neovimConfigured = inputs.nvf.lib.neovimConfiguration {
       inherit (nixpkgs.legacyPackages.${system}) pkgs;
       modules = [
-        ./modules
+        ./modules/default
       ];
     };
     obsidian = inputs.nvf.lib.neovimConfiguration {
       inherit (nixpkgs.legacyPackages.${system}) pkgs;
       modules = [
+        ./modules/obsidian
       ];
     };
   in {

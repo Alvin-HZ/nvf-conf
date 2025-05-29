@@ -7,7 +7,6 @@
     ./filetree.nix
     ./git.nix
     ./languages.nix
-    ./notes.nix
     ./notify.nix
     ./options.nix
     ./packages.nix
