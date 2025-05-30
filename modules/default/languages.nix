@@ -18,6 +18,9 @@ _: {
         enable = true;
         crates.enable = true;
       };
+      clang = {
+        enable = true;
+      };
     };
     lsp = {
       enable = true;
