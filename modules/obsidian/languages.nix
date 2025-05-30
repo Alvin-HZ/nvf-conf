@@ -1,7 +1,6 @@
 _: {
   vim = {
     languages = {
-      enableLSP = true;
       enableTreesitter = true;
       enableFormat = true;
       enableExtraDiagnostics = true;
@@ -13,6 +12,7 @@ _: {
       };
     };
     lsp = {
+      enable = true;
       formatOnSave = false;
     };
   };

@@ -3,6 +3,8 @@
     ./autocomplete.nix
     ./autopairs.nix
     ./binds.nix
+    ./clipboard.nix
+    ./dashboard.nix
     ./filetree.nix
     ./languages.nix
     ./notify.nix

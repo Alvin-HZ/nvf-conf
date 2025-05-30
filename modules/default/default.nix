@@ -3,6 +3,7 @@
     ./autocomplete.nix
     ./autopairs.nix
     ./binds.nix
+    ./clipboard.nix
     ./comments.nix
     ./filetree.nix
     ./git.nix
