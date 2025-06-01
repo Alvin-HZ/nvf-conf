@@ -54,7 +54,7 @@ _: {
           (padding 1)
           header
           (padding 2)
-          (button " 📄 New Note" "<cmd>ene<CR>" "<cmd>:ene<CR>" "n")
+          (button "    New Note" "<cmd>ene<CR>" "<cmd>:ene<CR>" "n")
           (button "    Daily Note" "<cmd>ObsidianToday<CR>" "<cmd>:ObsidianToday<CR>" "d")
           (button "    Quick Switch" "<cmd>ObsidianQuickSwitch<CR>" "<cmd>:ObsidianQuickSwitch<CR>" "q")
           (button "    Obsidian Search" "<cmd>ObsidianSearch<CR>" "<cmd>:ObsidianSearch<CR>" "s")
