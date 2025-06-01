@@ -7,6 +7,7 @@
     ./dashboard.nix
     ./filetree.nix
     ./languages.nix
+    ./notes.nix
     ./notify.nix
     ./options.nix
     ./packages.nix

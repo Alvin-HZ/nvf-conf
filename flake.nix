@@ -20,6 +20,9 @@
       inherit (nixpkgs.legacyPackages.${system}) pkgs;
       modules = [
         ./modules/obsidian
+        {
+          obsidian.path = "~/Documents/Obsidian-Notes";
+        }
       ];
     };
   in {
