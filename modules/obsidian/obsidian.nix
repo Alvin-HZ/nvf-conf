@@ -69,6 +69,32 @@
           };
         };
       };
+      keymaps = [
+        {
+          key = "<leader>on";
+          mode = ["" "i" "t" "n"];
+          action = "<CMD>ObsidianNew<CR>";
+          desc = "Create New Note";
+        }
+        {
+          key = "<leader>od";
+          mode = ["" "i" "t" "n"];
+          action = "<CMD>ObsidianToday<CR>";
+          desc = "Open Today's Daily Note";
+        }
+        {
+          key = "<leader>oq";
+          mode = ["" "i" "t" "n"];
+          action = "<CMD>ObsidianQuickSwitch<CR>";
+          desc = "Quick Switch Note";
+        }
+        {
+          key = "<leader>os";
+          mode = ["" "i" "t" "n"];
+          action = "<CMD>ObsidianSearch<CR>";
+          desc = "Search Notes";
+        }
+      ];
 
       options.conceallevel = 2;
 
@@ -80,6 +106,7 @@
           vim.cmd [[
             autocmd BufRead,BufNewFile *.markdown,*.md set foldlevelstart=6
           ]]
+          vim.opt.foldlevel=99
         '';
       };
     };

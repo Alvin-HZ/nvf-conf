@@ -19,7 +19,7 @@ _: {
     };
     keymaps = [
       {
-        key = "<leader>o";
+        key = "<leader>oo";
         mode = ["" "i" "t" "n"];
         action = "<CMD>AerialToggle!<CR>";
         desc = "Toggle Outline";
