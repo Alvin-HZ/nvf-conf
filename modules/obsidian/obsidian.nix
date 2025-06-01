@@ -106,6 +106,9 @@
           vim.cmd [[
             autocmd BufRead,BufNewFile *.markdown,*.md set foldlevelstart=6
           ]]
+          vim.cmd [[
+            autocmd VimEnter * cd ${config.obsidian.path}
+          ]]
           vim.opt.foldlevel=99
         '';
       };
