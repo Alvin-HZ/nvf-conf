@@ -94,6 +94,24 @@
           action = "<CMD>ObsidianSearch<CR>";
           desc = "Search Notes";
         }
+        {
+          key = "<leader>og";
+          mode = ["" "v"];
+          action = "<CMD>ObsidianFollowLink<CR>";
+          desc = "Follow Link";
+        }
+        {
+          key = "<leader>ol";
+          mode = ["" "v"];
+          action = "<CMD>ObsidianLink<CR>";
+          desc = "Link Note";
+        }
+        {
+          key = "<leader>op";
+          mode = ["" "v"];
+          action = "<CMD>ObsidianOpen<CR>";
+          desc = "Link Note";
+        }
       ];
 
       options.conceallevel = 2;
