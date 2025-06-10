@@ -110,7 +110,7 @@
           key = "<leader>op";
           mode = ["" "v"];
           action = "<CMD>ObsidianOpen<CR>";
-          desc = "Link Note";
+          desc = "Open in Obsidian";
         }
       ];
 
