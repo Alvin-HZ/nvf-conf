@@ -34,19 +34,25 @@ _: {
       {
         key = "<C-b>";
         mode = ["v"];
-        action = "<CMD>norm gzg<CR>";
+        action = "<plug>(nvim-surround-visual)g";
         desc = "Add Bold";
       }
       {
         key = "<C-i>";
         mode = ["v"];
-        action = "<CMD>norm gz*<CR>";
+        action = "<plug>(nvim-surround-visual)*";
         desc = "Add Italics";
       }
       {
         key = "<C-b>";
+        mode = ["i"];
+        action = "<Plug>(nvim-surround-insert)g";
+        desc = "Add Bold";
+      }
+      {
+        key = "<C-b>";
         mode = ["n"];
-        action = "<CMD>norm gzd*<CR>";
+        action = "<Plug>(nvim-surround-delete)*";
         desc = "Remove Italics";
       }
       {
