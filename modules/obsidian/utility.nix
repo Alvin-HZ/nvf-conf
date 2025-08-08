@@ -19,6 +19,11 @@ _: {
       outline.aerial-nvim = {
         enable = true;
       };
+      motion = {
+        flash-nvim = {
+          enable = true;
+        };
+      };
       images.image-nvim = {
         enable = true;
         setupOpts = {
