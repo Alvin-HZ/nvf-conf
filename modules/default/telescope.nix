@@ -2,13 +2,12 @@
   vim.telescope = {
     enable = true;
     setupOpts = {
-      defaults = {
-        pickers = {
-          find_command = [
-            "${pkgs.fd}/bin/fd"
-            "--hidden"
-          ];
-        };
+      pickers = {
+        find_files.find_command = [
+          "${pkgs.fd}/bin/fd"
+          "--type=file"
+          "--hidden"
+        ];
       };
     };
   };
