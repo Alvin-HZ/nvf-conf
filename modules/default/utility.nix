@@ -13,6 +13,7 @@ _: {
     images.image-nvim = {
       enable = true;
       setupOpts = {
+        backend = "kitty";
         editorOnlyRenderWhenFocused = true;
         integrations.markdown = {
           enable = true;
