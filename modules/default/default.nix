@@ -7,6 +7,7 @@
     ./comments.nix
     ./filetree.nix
     ./git.nix
+    ./keymaps.nix
     ./languages.nix
     ./notify.nix
     ./options.nix

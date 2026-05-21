@@ -6,6 +6,7 @@
     ./clipboard.nix
     ./dashboard.nix
     ./filetree.nix
+    ./keymaps.nix
     ./languages.nix
     ./notes.nix
     ./notify.nix
