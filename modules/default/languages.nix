@@ -14,6 +14,7 @@ _: {
       };
       java.enable = true;
       bash.enable = true;
+      lua.enable = true;
       rust = {
         enable = true;
         crates.enable = true;
