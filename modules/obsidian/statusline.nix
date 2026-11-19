@@ -11,8 +11,10 @@ _: {
       "dapui_stacks"
       "dap-repl"
     ];
-    extraActiveSection.c = [
-      ''
+    setupOpts.sections.lualine_c = [
+      {
+      _type = "lua-inline";
+      expr = ''
           {
             -- Macro Status
         function()
@@ -23,7 +25,8 @@ _: {
             icon = ' ',
             separator = {right = ''},
           }
-      ''
+      '';
+      }
     ];
   };
 }

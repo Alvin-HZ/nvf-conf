@@ -17,7 +17,6 @@ _: {
       lua.enable = true;
       rust = {
         enable = true;
-        crates.enable = true;
       };
       clang = {
         enable = true;
